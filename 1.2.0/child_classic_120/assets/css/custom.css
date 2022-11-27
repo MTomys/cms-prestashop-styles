@@ -2,8 +2,50 @@
  * Custom code goes here.
  * A template should always ship with an empty custom.css
  */
- #header{ background: red !important; }
+
+/*
+white - #F5F5F5
+beige - #D4CDC4
+brown - #765C56
+*/
+
+#header,
+#custom-text { 
+	background: #765c56; 
+}
+
+#header a {
+    color: #D4CDC4;
+}
+
+#header .header-top {
+    background-color: #F5F5F5;
+}
+
+#header .header-nav .blockcart,
+.product-miniature .thumbnail-container,
+.product-miniature .product-description,
+.block-categories,
+.products-sort-order .select-title,
+.card,
+#search_filters,
+.tabs 
+{
+    background: #F5F5F5;
+}
+
+#wrapper {
+    background: #D4CDC4;
+}
+
+#search_widget form input {
+    background-color: #E0E0E0;
+}
+
+#custom-text * {
+    color: #D4CDC4 !important;
+}
  
- body { 
+body { 
 	background-image: url("goatpattern.jpg"); 
 }
